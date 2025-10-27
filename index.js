@@ -1,9 +1,10 @@
 var distanceInMiles = 100;
-function estimatedReturnTime() {
+function estimatedArrivalTime() {
   var milesPerHour = 50;
-  return distanceInMiles/milesPerHour;
+  return estimatedArrivalTime() distanceInMiles/milesPerHour;
 };
 document.getElementById('result').innerHTML = estimatedArrivalTime;
+
 
 
 
